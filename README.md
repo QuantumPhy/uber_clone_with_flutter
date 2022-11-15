@@ -1,20 +1,31 @@
-# Uber clone with flutter (rider side)
+# uber-clone
 
-This is a clone of the famous application Uber, and its done with the flutter frame work, this particular repo, contains the code for the rider side
+A new Flutter project.
 
-<img src="lib/images/ss.png" width=300 height=460>
+## Getting Started
 
-### Don't forget to insert your APIKEY for the project to work
-* insert you Api key for android (android ->> app ->> src ->> main ->> manifest)
-* insert your Api key for Ios (ios ->> runner ->> appdelegate.m)
+FlutterFlow projects are built to run on the Flutter _stable_ release.
 
-## Authors Information
-My name is Santos Enoque, I am a flutter and python developer, for more information please check the links bellow.
+### IMPORTANT:
 
-- [Youtube: Santos Enoque](https://www.youtube.com/channel/UCRl79zOEtiLCglAFZJJzEZQ)
-- [LinkedIn: Santos Enoque](www.linkedin.com/in/santos-enoque)
-- Skype: santos enoque
+For projects with Firestore integration, you must first run the following commands to ensure the project compiles:
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
+```
+flutter pub get
+flutter packages pub run build_runner build --delete-conflicting-outputs
+```
+
+This command creates the generated files that parse each Record from Firestore into a schema object.
+
+### Getting started continued:
+
+This project is a starting point for a Flutter application.
+
+A few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+
+For help getting started with Flutter, view our
+[online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
